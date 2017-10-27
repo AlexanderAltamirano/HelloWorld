@@ -21,19 +21,19 @@ public class Chicken
 
 		public void layAnEgg()
 		{
-			System.out.println("The chicken lay an egg");
+			System.out.println("The chicken " + name + " lay an egg");
 		}
 		public void poop()
 		{
-			System.out.println("The Chicken pooped");
+			System.out.println("The Chicken " + name + " pooped");
 		}
 		public void drink()
 		{
-			System.out.println("The chicken drank");
+			System.out.println("The chicken " + name + " drank");
 		}
 		public void showData()
 		{
-			System.out.println("The name of the chicken is:  " + name + ",Color:  " + color + "The birhday: " + age);
+			System.out.println("The name of the chicken is:  " + name + ", Color:  " + color + ", The birhday: " + age);
 		}
 
 
