@@ -14,6 +14,8 @@ public class Analyst
     private String name;
     private String initials;
     private History history;
+    private Company[] companyInfomation;
+    private Investor investor;
 
     public Analyst(String name, String initials, History history) 
     {
